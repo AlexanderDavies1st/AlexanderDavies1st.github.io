@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unblocked Games</title>
+    <link rel="stylesheet" href="main.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/png" href="/Images/Favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/Images/Favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/Images/Favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/Images/Favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="UnBlocked Games" />
+    <link rel="manifest" href="/Images/Favicon/site.webmanifest" />
+    <script>
+        function toggleFullscreen() {
+            if (!document.fullscreenElement) {
+                document.documentElement.requestFullscreen()
+                    .catch(err => {
+                        alert(`Error attempting to enable fullscreen: ${err.message}`);
+                    });
+            } else {
+                // If already fullscreen, exit it
+                document.exitFullscreen();
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Unblocked Games</h1> <button class="custom-btn" onclick="toggleFullscreen()">Toggle Fullscreen</button>
+    </header>
+
+    <h2 class="Smaller-Heading">Contents</h2>
+    <div class="Contents-Page">
+        <a href="#FNAF">
+        <article class="Content">
+            <div><img class="Contents-Image" src="Images/FnafContents.jfif" alt="Image of Fnaf Poster"></div>
+            <div>
+                <h3 class="Div-Header">Five Nights at Freddys</h3>
+                <p>An Indie Survival Horror Game where Animatronics come to life and hunt you down.<br>You play as a night guard at a family pizza restaurant</p>
+            </div>
+        </article>
+        </a>
+        <a href="#MY-GAMES">
+        <article class="Content">
+            <div><img class="Contents-Image" src="Images/MyGamesContents.svg" alt="Image of My Game"></div>
+            <div>
+                <h3 class="Div-Header">My Games</h3>
+                <p>Games Made By Me Ported to HTML.</p>
+            </div>
+        </article>
+        </a>
+    </div>
+
+
+    <h2 class="Smaller-Heading">Games</h2>
+    
+    <div>
+
+        <!-- Fnaf -->
+        <h2 id="FNAF" class="Game-Heading">Five Nights at Freddys</h2>
+        <p style="text-align:center; color:#505050;">Use <code style="background-color:#89f89a; border-style:solid; border-color:#202020; border-width:3px;">-=</code> to Fullscreen.</p>
+        <div class="Games-Page">
+            <!--1-->            
+            <a href="Games/Fnaf1.html">
+            <article class="Content">
+                <div><img class="Contents-Image" src="Images/Fnaf1.jfif" alt="Freddy"></div>
+                <div><h3 class="Div-Header">FNaF 1</h3></div>
+            </article>
+            </a>
+            <!--2-->
+            <a href="Games/Fnaf2.html">
+            <article class="Content">
+                <div><img class="Contents-Image" src="Images/Fnaf2.jfif" alt="Withered Freddy"></div>
+                <div><h3 class="Div-Header">FNaF 2</h3></div>
+            </article>
+            </a>
+            <!--3-->
+            <a href="Games/Fnaf3.html">
+            <article class="Content">
+                <div><img class="Contents-Image" src="Images/Fnaf3.jfif" alt="Springtrap"></div>
+                <div><h3 class="Div-Header">FNaF 3</h3></div>
+            </article>
+            </a>
+            <!--4-->
+            <a href="Games/Fnaf4.html">
+            <article class="Content">
+                <div><img class="Contents-Image" src="Images/Fnaf4.jfif" alt="Nightmare Freddy"></div>
+                <div><h3 class="Div-Header">FNaF 4</h3></div>
+            </article>
+            </a>
+            <!--SL-->
+            <a href="Games/Fnaf5.html">
+            <article class="Content">
+                <div><img class="Contents-Image" src="Images/Fnaf5.jfif" alt="Funtime Freddy"></div>
+                <div><h3 class="Div-Header">FNaF SL</h3></div>
+            </article>
+            </a>
+            <!--UCN-->
+            <a href="Games/FnafUCN.html">
+            <article class="Content">
+                <div><img class="Contents-Image" src="Images/FnafUCN.jfif" alt="Nightmarionne UCN Icon"></div>
+                <div><h3 class="Div-Header">FNaF UCN</h3></div>
+            </article>
+            </a>
+        </div>
+
+        <!-- My Games -->
+        <h2 id="MY-GAMES" class="Game-Heading">My Games</h2>
+        <div class="Games-Page">
+            <!--1-->            
+            <a href="Games/7NightsAtScratchs.html">
+            <article class="Content">
+                <div><img class="Contents-Image" src="Images/7NightsAtScratchs.svg" alt="7 Nights at Scratchs Edited Thumbnail"></div>
+                <div><h3 class="Div-Header">7 Nights at Scratchs</h3></div>
+            </article>
+            </a>
+        </div>
+
+    </div>
+
+</body>
+</html>
