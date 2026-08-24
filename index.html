@@ -12,23 +12,10 @@
     <link rel="apple-touch-icon" sizes="180x180" href="/Images/Favicon/apple-touch-icon.png" />
     <meta name="apple-mobile-web-app-title" content="UnBlocked Games" />
     <link rel="manifest" href="/Images/Favicon/site.webmanifest" />
-    <script>
-        function toggleFullscreen() {
-            if (!document.fullscreenElement) {
-                document.documentElement.requestFullscreen()
-                    .catch(err => {
-                        alert(`Error attempting to enable fullscreen: ${err.message}`);
-                    });
-            } else {
-                // If already fullscreen, exit it
-                document.exitFullscreen();
-            }
-        }
-    </script>
 </head>
 <body>
     <header>
-        <h1>Unblocked Games</h1> <button class="custom-btn" onclick="toggleFullscreen()">Toggle Fullscreen</button>
+        <h1>Unblocked Games</h1>
     </header>
 
     <h2 class="Smaller-Heading">Contents</h2>
