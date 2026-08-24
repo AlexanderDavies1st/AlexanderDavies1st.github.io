@@ -31,6 +31,16 @@ p {
     border: 0;
 }
 
+.game-2048-container {
+    width: min(320px, calc(100vw - 2rem));
+    height: 450px;
+    aspect-ratio: auto;
+}
+
+.game-2048-container iframe {
+    display: block;
+}
+
 .custom-btn {
     /* Remove Old Styling */
     background: none;
