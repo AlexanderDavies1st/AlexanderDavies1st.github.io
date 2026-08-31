@@ -1,5 +1,4 @@
-# AlexanderDavies1st
-Unblocked Games 
+# Unblocked Games 
 
 [Github.io Link to Games](https://alexanderdavies1st.github.io/)
 
